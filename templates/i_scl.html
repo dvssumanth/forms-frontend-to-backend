@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="scn">scname</label><br>
+        <input type="text" id="scn" name="scn"><br>
+        <label for="scl">scloc</label><br>
+        <input type="text" id="scl" name="scl"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
